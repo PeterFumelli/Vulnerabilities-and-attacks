@@ -2,6 +2,7 @@
 
 ### Задание 1
 
+```
 Starting Nmap 7.95 ( <https://nmap.org> ) at 2025-05-17 16:26 MSK
 Nmap scan report for 192.168.125.161
 Host is up (0.99s latency).
@@ -30,6 +31,8 @@ PORT     STATE SERVICE
 6667/tcp open  irc
 8009/tcp open  ajp13
 8180/tcp open  unknown
+
+```
 
 1. vsftpd 2.3.4 – Бэкдор
 Описание: В этой версии FTP-сервера присутствует бэкдор, активируемый при вводе имени пользователя, заканчивающегося на :).
